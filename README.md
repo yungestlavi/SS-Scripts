@@ -10,8 +10,12 @@ powershell Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass && powersh
 Analyzer Mod
 
 Habibi Mod Analyzer (by
-``` powershell -command "irm 'https://raw.githubusercontent.com/HadronCollision/PowershellScripts/refs/heads/main/HabibiModAnalyzer.ps1' | iex" ```
+```
+powershell -command "irm 'https://raw.githubusercontent.com/HadronCollision/PowershellScripts/refs/heads/main/HabibiModAnalyzer.ps1' | iex"
+```
 
 Tonynoh Mod Analyzer (by github.com/meowtonynoh)
 
-``` powershell -ExecutionPolicy Bypass -Command "Invoke-Expression (Invoke-RestMethod 'https://raw.githubusercontent.com/MeowTonynoh/MeowModAnalyzer/main/MeowModAnalyzer.ps1')" ```
+```
+powershell -ExecutionPolicy Bypass -Command "Invoke-Expression (Invoke-RestMethod 'https://raw.githubusercontent.com/MeowTonynoh/MeowModAnalyzer/main/MeowModAnalyzer.ps1')"
+```
