@@ -27,6 +27,13 @@ powershell -command "irm 'https://raw.githubusercontent.com/HadronCollision/Powe
 ```
 powershell -ExecutionPolicy Bypass -Command "Invoke-Expression (Invoke-RestMethod 'https://raw.githubusercontent.com/MeowTonynoh/MeowModAnalyzer/main/MeowModAnalyzer.ps1')"
 ```
+## JAR
+
+**JAR PArser (by github.com/orbdiff)
+```
+powershell -command "irm 'https://raw.githubusercontent.com/Orbdiff/JARParser/refs/heads/main/JARParser.ps1' | iex"
+```
+
 ## Journal commands (and what they do)
 
 **Cacls**
@@ -95,5 +102,34 @@ This command scans the journal for every file modifications of the following ext
 ```
 fsutil usn readjournal c: csv | findstr /i /C:"0x80000200" /i /C:"0x00001000" /i  /C:"0x00002000" | findstr /i /C:".pf" /i /C:".exe" /i /C:".bat" /i /C:".cmd" /i /C:".jar" /i /C:".bat" /i /C:".pif" /i /C:"jnativehook" /i /C:"?" > all.txt
 ```
+## Alternate data stream (by github.com/spokwn)
+Script that analyze every possible Alternate Data Stream
 
+```
+powershell Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass && powershell Invoke-Expression (Invoke-RestMethod https://raw.githubusercontent.com/spokwn/powershells/refs/heads/main/Streams.ps1)
+```
+## Recording processes (by github.com/orbdiff)
+Script that allows you to see every processes that is using GPU and recording the screen, and allows you to kill those processes
 
+```
+powershell -command "irm 'https://raw.githubusercontent.com/Orbdiff/powershell/refs/heads/main/kill-screen-processes.ps1' | iex"
+```
+## Task Scheduler
+
+**Windows 10/11 Task scheduler**
+
+Script that scans the C:\Windows\System32\Tasks directory 
+```
+powershell -Command "Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass; Invoke-Expression (Invoke-RestMethod 'https://raw.githubusercontent.com/nolww/project-mohr/refs/heads/main/ManualTasks.ps1')"
+```
+
+**Windows Modified Task Scheduler**
+
+Script that scans the C:\Windows\System32\Tasks for OS Modified
+```
+powershell -Command "Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass; Invoke-Expression (Invoke-RestMethod 'https://raw.githubusercontent.com/ObsessiveBf/Task-Scheduler-Parser/main/script.ps1')"
+```
+## Signatures (by github.com/orbdiff)
+```
+powershell -command "irm 'https://github.com/Orbdiff/powershell/raw/refs/heads/main/signaturesparser.ps1' | iex"
+```
