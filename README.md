@@ -3,7 +3,9 @@ Very often it happens that during a ScreenShare (SS) users disable the clipboard
 
 Services script (by github.com/praiselily)
 
-```powershell Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass && powershell Invoke-Expression (Invoke-RestMethod https://raw.githubusercontent.com/praiselily/lilith-ps/refs/heads/main/Services.ps1) ```
+```
+powershell Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass && powershell Invoke-Expression (Invoke-RestMethod https://raw.githubusercontent.com/praiselily/lilith-ps/refs/heads/main/Services.ps1) 
+```
 
 Analyzer Mod
 
