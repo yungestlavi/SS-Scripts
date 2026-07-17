@@ -79,3 +79,11 @@ This command scans the journal for every .ahk file modifications
 ```
 fsutil usn readjournal c: csv | findstr /i /C:".ahk" > AHK.txt
 ```
+
+**ALl files modifcations**
+This command scans the journal for every file modifications of the following extensions
+.exe, .jar, .dll, .pf, .ps1, .py, .bat, JnativeHook
+
+```
+fsutil usn readjournal c: csv | findstr /i /C:"0x80000200" /i /C:"0x00001000" /i  /C:"0x00002000" | findstr /i /C:".pf" /i /C:".exe" /i /C:".bat" /i /C:".cmd" /i /C:".jar" /i /C:".bat" /i /C:".pif" /i /C:"jnativehook" /i /C:"?" > all.txt
+```
