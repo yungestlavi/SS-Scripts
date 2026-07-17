@@ -7,6 +7,14 @@
 powershell Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass && powershell Invoke-Expression (Invoke-RestMethod https://raw.githubusercontent.com/praiselily/lilith-ps/refs/heads/main/Services.ps1) 
 ```
 
+## BAM
+
+**Redlotus BAM**
+
+```
+powershell Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass && powershell Invoke-Expression (Invoke-RestMethod https://raw.githubusercontent.com/PureIntent/ScreenShare/main/RedLotusBam.ps1)
+```
+
 ## Analyzer Mod
 
 ### Habibi Mod Analyzer (by
@@ -87,3 +95,5 @@ This command scans the journal for every file modifications of the following ext
 ```
 fsutil usn readjournal c: csv | findstr /i /C:"0x80000200" /i /C:"0x00001000" /i  /C:"0x00002000" | findstr /i /C:".pf" /i /C:".exe" /i /C:".bat" /i /C:".cmd" /i /C:".jar" /i /C:".bat" /i /C:".pif" /i /C:"jnativehook" /i /C:"?" > all.txt
 ```
+
+
