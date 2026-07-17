@@ -15,6 +15,14 @@ powershell Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass && powersh
 powershell Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass && powershell Invoke-Expression (Invoke-RestMethod https://raw.githubusercontent.com/PureIntent/ScreenShare/main/RedLotusBam.ps1)
 ```
 
+**Spokwn BAM PArser**
+```
+powershell Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass && powershell Invoke-Expression (Invoke-RestMethod https://raw.githubusercontent.com/spokwn/powershells/refs/heads/main/bamparser.ps1)
+```
+##BAM Deleted Keys
+```
+powershell Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass && powershell Invoke-Expression (Invoke-RestMethod https://raw.githubusercontent.com/Florinyoq/Screenshare/refs/heads/main/bam.ps1)
+```
 ## Analyzer Mod
 
 ### Habibi Mod Analyzer (by
@@ -129,7 +137,17 @@ Script that scans the C:\Windows\System32\Tasks for OS Modified
 ```
 powershell -Command "Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass; Invoke-Expression (Invoke-RestMethod 'https://raw.githubusercontent.com/ObsessiveBf/Task-Scheduler-Parser/main/script.ps1')"
 ```
-## Signatures (by github.com/orbdiff)
+## Signatures 
+
+**Signatures (by github.com/orbdiff)**
 ```
 powershell -command "irm 'https://github.com/Orbdiff/powershell/raw/refs/heads/main/signaturesparser.ps1' | iex"
+```
+**Signatures (by github.com/spokwn)
+```
+powershell -command "irm 'https://raw.githubusercontent.com/spokwn/powershells/refs/heads/main/signatures.ps1' | iex"
+```
+## Alt Detector
+```
+powershell Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass && powershell Invoke-Expression (Invoke-RestMethod https://raw.githubusercontent.com/Enr1c0o/Powershell-Scripts/refs/heads/main/Alt-Detector.ps1)
 ```
