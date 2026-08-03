@@ -19,7 +19,7 @@ powershell Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass && powersh
 ```
 powershell Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass && powershell Invoke-Expression (Invoke-RestMethod https://raw.githubusercontent.com/spokwn/powershells/refs/heads/main/bamparser.ps1)
 ```
-##BAM Deleted Keys
+## BAM Deleted Keys
 ```
 powershell Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass && powershell Invoke-Expression (Invoke-RestMethod https://raw.githubusercontent.com/Florinyoq/Screenshare/refs/heads/main/bam.ps1)
 ```
