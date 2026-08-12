@@ -73,7 +73,7 @@ powershell -ExecutionPolicy Bypass -Command "Invoke-Expression (Invoke-RestMetho
 powershell -command "irm 'https://raw.githubusercontent.com/Orbdiff/JARParser/refs/heads/main/JARParser.ps1' | iex"
 ```
 
-## Journal commands (and what they do)
+# Journal commands (and what they do)
 
 **Cacls**
 
