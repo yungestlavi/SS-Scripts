@@ -3,7 +3,7 @@
 
 ## OrbDIff github
 
-[github.com/orbdiff](https://github.com)
+[Orbdiff](https://github.com)
 
 
 ## Services script (by github.com/praiselily)
