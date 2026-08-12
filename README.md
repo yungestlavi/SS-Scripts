@@ -4,7 +4,7 @@
 # Index
 
 - [Githubs](#Githubs)
-- [Services](#Services script by lily)
+- [Services](#Service_Script_by_lily)
 
 # Githubs
 
@@ -30,7 +30,7 @@
 
 
 
-## Services script by lily
+# Services script by lily
 
 ```
 powershell "iex(irm 'https://raw.githubusercontent.com/inkenal/rbw-SS-ps/refs/heads/main/Services.ps1')"
