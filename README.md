@@ -5,6 +5,7 @@
 
 - [Githubs](#Githubs)
 - [Services](#Services)
+- [BAM](#BAM)
 
 # Githubs
 
@@ -36,7 +37,7 @@
 powershell "iex(irm 'https://raw.githubusercontent.com/inkenal/rbw-SS-ps/refs/heads/main/Services.ps1')"
 ```
 
-## BAM
+# BAM
 
 **Redlotus BAM**
 
