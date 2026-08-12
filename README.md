@@ -8,6 +8,9 @@
 - [BAM](#BAM)
 - [Mod Analyzer](#Mod_analyzer)
 - [Journal](#Journal)
+- [Task Scheduler](#Task-scheduler)
+- [Signatures](#Signatures)
+- [Alt detector](#Alt-detector)
 # Githubs
 
 ## OrbDIff github
@@ -73,7 +76,7 @@ powershell -ExecutionPolicy Bypass -Command "Invoke-Expression (Invoke-RestMetho
 powershell -command "irm 'https://raw.githubusercontent.com/Orbdiff/JARParser/refs/heads/main/JARParser.ps1' | iex"
 ```
 
-# Journal commands (and what they do)
+# Journal
 
 **Cacls**
 
@@ -153,7 +156,7 @@ Script that allows you to see every processes that is using GPU and recording th
 ```
 powershell -command "irm 'https://raw.githubusercontent.com/Orbdiff/powershell/refs/heads/main/kill-screen-processes.ps1' | iex"
 ```
-## Task Scheduler
+#Task-Scheduler
 
 **Windows 10/11 Task scheduler**
 
@@ -168,7 +171,7 @@ Script that scans the C:\Windows\System32\Tasks for OS Modified
 ```
 powershell -Command "Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass; Invoke-Expression (Invoke-RestMethod 'https://raw.githubusercontent.com/ObsessiveBf/Task-Scheduler-Parser/main/script.ps1')"
 ```
-## Signatures 
+# Signatures 
 
 **Signatures (by github.com/orbdiff)**
 ```
@@ -178,7 +181,7 @@ powershell -command "irm 'https://github.com/Orbdiff/powershell/raw/refs/heads/m
 ```
 powershell -command "irm 'https://raw.githubusercontent.com/spokwn/powershells/refs/heads/main/signatures.ps1' | iex"
 ```
-## Alt Detector
+# Alt-Detector
 ```
 powershell Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass && powershell Invoke-Expression (Invoke-RestMethod https://raw.githubusercontent.com/Enr1c0o/Powershell-Scripts/refs/heads/main/Alt-Detector.ps1)
 ```
