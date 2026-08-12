@@ -156,7 +156,7 @@ Script that allows you to see every processes that is using GPU and recording th
 ```
 powershell -command "irm 'https://raw.githubusercontent.com/Orbdiff/powershell/refs/heads/main/kill-screen-processes.ps1' | iex"
 ```
-#Task-Scheduler
+# Task-Scheduler
 
 **Windows 10/11 Task scheduler**
 
