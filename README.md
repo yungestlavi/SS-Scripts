@@ -11,6 +11,7 @@
 - [Task Scheduler](#Task-scheduler)
 - [Signatures](#Signatures)
 - [Alt detector](#Alt-detector)
+- [Regex](#Regex)
 # Githubs
 
 ## OrbDIff github
@@ -184,4 +185,17 @@ powershell -command "irm 'https://raw.githubusercontent.com/spokwn/powershells/r
 # Alt-Detector
 ```
 powershell Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass && powershell Invoke-Expression (Invoke-RestMethod https://raw.githubusercontent.com/Enr1c0o/Powershell-Scripts/refs/heads/main/Alt-Detector.ps1)
+```
+also use alt detector by redlotus -> [Itzicehere](github.com/itzicehere)
+
+# Regex
+
+
+## Dll regex
+```
+^(?:\\\\\?\\)?[A-Za-z]:\\.+$
+```
+## Exe regex
+```
+^(?!.*\.dll$)(?:\\\\\?\\)?[A-Za-z]:\\.+$
 ```
