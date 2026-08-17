@@ -16,11 +16,11 @@
 
 ## OrbDIff github
 
-[Orbdiff](https://github.com)
+[Orbdiff](https://github.com/orbdiff)
 
 ## Spokwn github
 
-[Spokwn](github.com/spokwn)
+[Spokwn](https://github.com/spokwn)
 
 ## MeowTonynoh github
 
