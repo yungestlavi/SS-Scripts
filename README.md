@@ -24,11 +24,11 @@
 
 ## MeowTonynoh github
 
-[Tonynoh](github.com/meowtonynoh)
+[Tonynoh](https://github.com/meowtonynoh)
 
 ## Redlotus/Itzicehere github
 
-[Itzicehere](github.com/itzicehere)
+[Itzicehere](https://github.com/itzicehere)
 
 ## Eric zimmerman tools
 
